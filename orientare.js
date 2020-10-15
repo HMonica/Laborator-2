@@ -8,7 +8,7 @@ function on_device_orientation(evt)
 	
 	document.getElementById("a").innerHTML = "alpha = " + alpha;
 	document.getElementById("b").innerHTML = "beta = " + beta;
-	document.getElementById("c").innerHTML = "gamma = " + gamma;
+	document.getElementById("g").innerHTML = "gamma = " + gamma;
 	
 	var canvas = document.getElementById("canvas");
 	var context = canvas.getContext("2d");
