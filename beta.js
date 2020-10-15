@@ -15,7 +15,7 @@ function on_device_orientation(evt)
 	var centru = {x:canvas.width/2, y:canvas.height/2}
 	var latura_patrat = 50;
 	
-	context.clearRect(0, 0, c.width, c.height);
+	context.clearRect(0, 0, g.width, g.height);
 	context.fillStyle = "#6A0888";
 	context.beginPath();
 	context.fillRect(180, 150, event.beta, 50);
